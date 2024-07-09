@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title>Mi Portafolio</title>
+    <script src ="validacion.js"></script>
+</head>
+<body>
+    <section class="menu">
+        <header class="menu__header">
+            <img src = "Imagenes/vector.png">
+
+        </header>
+        <nav>
+            <ul class="menu__list">
+                <li class="menu__list__item"><a href="#sobre-mi">Sobre mí</a></li>
+                <li class="menu__list__item"><a href="#skills">Skills</a></li>
+                <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
+                <li class="menu__list__item"><a href="#formacion">Formación</a></li>
+                <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
+                <li class="menu__list__item"><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </section>
+    
+    <div class="container">
+        <!--Introducción -->
+        <div class="cuadro1">
+            <h1 class="texto1">¡Hola! soy Renato y este es mi portafolio</h1>
+            <h3 class="texto2">Actualmente estoy estudiando la carrera ingeniería de software, siguiendo con un gran interés respecto a la programación, creación de software y participante del proyecto Oracle ONE en Alura Latam.</h3>
+            <div class="social-links">
+                <a href="https://github.com/Renatoo2005" target="_blank">
+                    <img src="Imagenes/Github.png" alt="GitHub">
+                </a>
+               
+                <a href="https://www.instagram.com/renatoo_u/" target="_blank">
+                    <img src="Imagenes/Instagram.png" alt="Instagram">
+                </a>
+            </div>
+        </div>
+
+        <!--Sobre mí -->
+        <div class="cuadro3" id="sobre-mi">
+            <h1 class="texto3">Sobre mí</h1>
+            <h3 class="texto4">Actualmente me estoy esforzando ser un buen desarrollador de software, que también tiene conocimientos en el ámbito del front-end.</h3>
+            <h3 class="texto5">Me gusta aprender cosas nuevas, en especial lo que es importante para mi carrera y para mi futuro.</h3>
+        </div>
+
+        <!--Skills -->
+         <section class ="skills">
+            <h1 class="texto6" id="skills">SKILLS</h1>
+            <div class="skills__line">
+                <div class="skills__box">
+                    <img src="Imagenes/HTML.png" alt="HTML">
+                    <p><span class="highlight-text">HTML</span></p>
+                </div>
+                <div class="skills__box">
+                    <img src="Imagenes/JavaScript.png" alt="JavaScript">
+                    <p><span class="highlight-text">JavaScript</span></p>
+                </div>
+                <div class="skills__box">
+                    <img src="Imagenes/Css.png" alt="CSS">
+                    <p><span class="highlight-text">CSS</span></p>
+                </div>
+                <div class="skills__box">
+                    <img src="Imagenes/Java.png" alt="Java" class ="java">
+                    <p><span class="highlight-text">Java</span></p>
+                </div>
+                <div class="skills__box">
+                    <img src="Imagenes/Sql.png" alt="SQL">
+                    <p><span class="highlight-text">SQL</span></p>
+                </div>
+            </div>
+
+         </section>
+       
+        
+
+        <!--Hobbies -->
+        <section class="hobbies" id="hobbies">
+            <h1 class="texto17">HOBBIES</h1>
+            <div class="hobbies__line">
+                <div class="hobbies__box">
+                    <img src="Imagenes/Leer.png" alt="Leer">
+                    <p class = "texto13">Leer</p>
+                </div>
+                <div class="hobbies__box">
+                    <img src="Imagenes/Videojuegos.png" alt="Jugar videojuegos">
+                    <p class = "texto14">Jugar videojuegos</p>
+                </div>
+                <div class="hobbies__box">
+                    <img src="Imagenes/Musica.png" alt="Oír música">
+                    <p class = "texto15">Oír música</p>
+                </div>
+                <div class="hobbies__box">
+                    <img src="Imagenes/Ejercicio.png" alt="Hacer ejercicio"class ="ejer">
+                    <p class = "texto16">Hacer ejercicio</p>
+                </div>
+            </div>
+        </section>
+
+        <!--Formación académica -->
+        <section class ="formacion">
+            <div class="cuadro4" id="formacion">
+                <h1 class="texto7">Formación académica</h1>
+                <div class="academic__courses">
+                    <div class="academic__courses__box">
+                        <h3 class="titulo_inst">Programa ONE - G6</h3>
+                        <div class="academic__courses__item__subtitle">
+                            <img src="Imagenes/Alura.PNG" alt="Alura">
+                            <p class="texto8">2024 - Alura</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <!--Experiencia-->
+        <section id="xp" class="experiencia">
+            <div class="adivina">
+                <h2 class="texto10">Experiencia profesional</h2>
+
+                <h2 class="texto8">Adivina el número</h2>
+                <h3 class="texto9">Challenge Oracle para adivinar el número del 1 al 10</h3>
+                <div class="link">
+                    <span class="repo">
+                        <a href="https://github.com/Renatoo2005/Numero_Secreto" target="_blank"><button class="repo">Repositorio</button></a>
+                    </span>
+                    <span class="demo">
+                        <a href="https://renatoo2005.github.io/Numero_Secreto/" target="_blank"><button class="demo">Ver demo</button></a>
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <!--Contacto-->
+        <div class="cuadro5" id="contacto">
+            <section class="contacto">
+                <h2 class="texto18">Contacto</h2>
+                <h3 class="texto11">¿Te gustó mi trabajo?</h3>
+                <h3 class="texto12">Puedes completar este formulario para contactarnos</h3>
+                <form class="form_contacto" name="form">
+                    <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
+                    <input class="formcontato__input" type="email" name="email" placeholder="E-mail">
+                    <input class="formcontato__input" type="text" name="asunto" placeholder="Asunto">
+                    <textarea class="form_textA" rows="5" cols="40" id="mensaje" name="mensaje" placeholder="Mensaje"></textarea>
+                    <button type="submit" class="form_btn" id="submitButton" onclick="return validarFormulario()">Enviar mensaje</button>
+                </form>
+            </section>
+        </div>
+
+        <!--Footer-->
+        <section class="footer">
+            <div class="footer__content">
+                <p>&copy; Copyright By Renato Uipan - 2024</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
